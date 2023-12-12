@@ -1,0 +1,63 @@
+﻿body {
+    background-image: url(background.gif);
+    background-size: 100% 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Poem {
+    height: 100%;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    transition: 2s, 2s;
+}
+
+
+p:hover {
+    height: 100%;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    transition: 2s,2s;
+    transform: translateY(-20px);
+}
+
+hr {
+    color: white;
+}
+
+p {
+    font-size: 50px;
+    color: black;
+    font-family: cursive;
+}
+
+    p:hover {
+        font-size: 50px;
+        color: #cf4c4c;
+        font-family: cursive;
+    }
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1px;
+    color: white;
+    font-family: cursive;
+    transition: 120s;
+    Animation-name: sampimg;
+    Animation-duration: 5s;
+    Animation-iteration-count: 1;
+    animation-delay: -2s;
+}
+
+
+    h1:hover {
+        font-size: 50px;
+        color: #cf4c4c;
+        font-family: cursive;
+        transition: 120s;
+    }
