@@ -22,7 +22,7 @@ p:hover {
     margin: 0 auto;
     margin-top: 200px;
     transition: 2s,2s;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
 }
 
 hr {
