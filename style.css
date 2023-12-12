@@ -1,147 +1,65 @@
-body {
-	background-image:url(background.gif);
-	background-repeat:no-repeat;
-	background-size:100% 100%;
-	background-attachment:fixed;
-	margin-left:450px;
-
-
+﻿body{
+    background-color:white;
+    text-align:center;
+    margin:0 auto;
 }
 
-.picture1 {
-	width: 150px;
-	height: 50px;
-	border: solid;
-	border-radius: 5px;
-	border-width: 1px;
-	filter: drop-shadow(2px 3px 0px #000000);
-	background-color:white;
-	text-align: center;
-	margin-left: 10px;
-	margin-top:10px;
-	transition: 0.3s;
-	padding:20px;
-}
-
-	.picture1:hover {
-		transform: translateY(-5px);
-		transition: 0.3s;
-		width: 150px;
-		height: 50px;
-		border: solid;
-		border-radius: 5px;
-		border-width: 1px;
-		filter: drop-shadow(2px 3px 0px #000000);
-		background-color: white;
-		text-align: center;
-		padding:20px;
-		margin-left:10px;
-		margin-top:10px
-	}
-
-
-
-	.picture1:nth-child(2) {
-		background-color: white;
-		margin-left:850px;
-		width: 200px;
-	}
-
-	.picture1:nth-child(2):hover {
-		background-color: white
-	}
-
-	.picture1:nth-child(4) {
-		background-color: white;
-		margin-left: 850px;
-		width: 200px;
-	}
-
-		.picture1:nth-child(4):hover {
-			background-color: white
-		}
-
-
-	.picture1:nth-child(5) {
-		background-color: white;
-		margin-left: 850px;
-		width: 200px;
-		height:70px;
-	}
-
-		.picture1:nth-child(5):hover {
-			background-color: white
-		}
-	 
-	
-
-
-.background {
-	background-image:linear-gradient(#f8f0f0,#aeadad);
-	height:700px;
-	width: 1110px;
-	margin-top:10px;
-	filter: drop-shadow(5px 3px 0px #000000);
-	border-radius: 3px;
-	border-width:1px;
-	border:solid;
-
+.Poem{
+    height:100%;
+    width:300px;
+    margin:0 auto;
+    margin-top:200px;
+   transition:2s, 2s;
 }
 
 
-
-
-
-h1{
-	font-size:25px;
-	text-align:center;
-	font-family:'Comic Sans MS';
-	color:#000000;
+p:hover {
+    height: 100%;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    transition:2s,2s;
+    transform:translateY(-20px);
+ 
+   
 }
 
-p {
-	font-size: 20px;
-	font-family: 'Comic Sans MS';
-	color: #c8c8c8;
-	margin-top:10px;
-	margin-left:450px;
+hr{
+    color:white;
+}
+
+p{
+    font-size:50px;
+    color:black;
+    font-family:cursive;
 
 }
 
-	header {
-	width: 1105px;
-	height: 50px;
-	background-image:linear-gradient( #112d70, #071f58);
-	border: solid;
-	border-width: 5px;
-	filter: drop-shadow(5px 3px 0px #000000);
-}
-
-.exit{
-	height:40px;
-	width:45px;
-	background-image:url(close.png);
-	background-size:100% 100%;
-	background-repeat:no-repeat;
-	margin-left:1040px;
-	margin-top:-50px;
-
-	
-}
-
-
-
-.icon{
-	height: 40px;
-	width: 45px;
-	background-image: url(mail.png);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	margin-left: 5px;
-	margin-top: -5px;
-	
+p:hover {
+    font-size: 50px;
+    color:#cf4c4c;
+    font-family: cursive;
 }
 
 a{
-	text-decoration:none;
+    text-decoration:none;
+}
+
+h1 {
+    font-size: 1px;
+    color:white;
+    font-family: cursive;
+    transition: 120s;
+    Animation-name: sampimg;
+    Animation-duration: 5s;
+    Animation-iteration-count:1;
+    animation-delay:-2s;
+}
+
+
+h1:hover {
+    font-size: 50px;
+    color:#cf4c4c;
+    font-family: cursive;
+    transition:120s;
 }
