@@ -1,8 +1,6 @@
-﻿body{
+body{
     background-image:url(background.gif);
-        background-attachment:fixed;
-     background-size:100% 100%;
-     background-repeat:no-repeat;
+        background-size:100% 100%;
     text-align:center;
     margin:0 auto;
 }
